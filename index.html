@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- DaisyUi CDN -->
@@ -56,7 +58,7 @@
         </div>
 
         <!-- banner part  -->
-        <div class="relative px-6">
+        <div class="relative px-6 lg:px-0">
 
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -99,9 +101,124 @@
         </div>
 
     </header>
-    <main>
+    <main class="container px-12 lg:px-0 h-[5000rem]">
+        <!-- Statities Section -->
+        <section class="mt-24">
+            <!-- Text section -->
+            <div
+                class="border-y-[2px] border-dashed text-center py-12 mx-auto flex flex-col items-center justify-center">
+                <h3 class="text-3xl font-bold mb-3">Professional Hockey Club</h3>
+                <p class="opacity-40 w-1/2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est necessitatibus
+                    molestiae velit deleniti consequatur modi ipsum error quas quidem deserunt. Hic, explicabo eligendi.
+                    Temporibus, quas.</p>
+
+            </div>
+
+            <div class="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                    <div class="relative">
+                        <div class="z-50 radial-progress text-red-500" style="--value:95;" role="progressbar">95%</div>
+                        <div class=" absolute rotate-90 radial-progress text-primary text-slate-300 top-0 left-0"
+                            style="--value:87;" role="progressbar"></div>
+                    </div>
+
+                    <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                    <div class="relative">
+                        <div class="z-50 radial-progress text-green-500" style="--value:90;" role="progressbar">90%
+                        </div>
+                        <div class=" absolute rotate-90 radial-progress text-primary text-slate-300 top-0 left-0"
+                            style="--value:87;" role="progressbar"></div>
+                    </div>
+
+                    <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                    <div class="relative">
+                        <div class="z-50 radial-progress text-yellow-500" style="--value:80;" role="progressbar">80%
+                        </div>
+                        <div class=" absolute rotate-90 radial-progress text-primary text-slate-300 top-0 left-0"
+                            style="--value:87;" role="progressbar"></div>
+                    </div>
+
+                    <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                    <div class="relative">
+                        <div class="z-50 radial-progress text-blue-500" style="--value:87;" role="progressbar">87%</div>
+                        <div class=" absolute rotate-90 radial-progress text-primary text-slate-300 top-0 left-0"
+                            style="--value:87;" role="progressbar"></div>
+                    </div>
+
+                    <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Stat section -->
+        <section class="mt-24">
+        </section>
+
+        <!-- Program section -->
+        <section class="mt-24">
+            <div
+                class="border-y-[2px] border-dashed text-center py-12 mx-auto flex flex-col items-center justify-center">
+                <h3 class="text-3xl font-bold mb-3">Program Section</h3>
+                <p class="opacity-40 w-1/2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est necessitatibus
+                    molestiae velit deleniti consequatur modi ipsum error quas quidem deserunt. Hic, explicabo eligendi.
+                    Temporibus, quas.</p>
+
+            </div>
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+
+                <div
+                    class="bg-red-500 rounded-lg w-full junior-program flex flex-col justify-end items-center p-24 text-white">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Junior Program</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt corrupti optio aut!
+                            Doloribus, possimus doloremque.</p>
+                        <button class="btn btn-error mt-4 text-white">Register Now</button>
+                    </div>
+                </div>
+                <div
+                    class="bg-red-500 rounded-lg w-full senior-program flex flex-col justify-end items-center p-24 text-white">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Senior Program</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt corrupti optio aut!
+                            Doloribus, possimus doloremque.</p>
+                        <button class="btn btn-error mt-4 text-white">Register Now</button>
+                    </div>
+                </div>
+
+
+                <div
+                    class="bg-red-500 rounded-lg w-full lg:col-span-2 prof-program senior-program flex flex-col justify-end items-start p-24 text-white">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Professional Program</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt corrupti optio aut!
+                            Doloribus, possimus doloremque.</p>
+                        <button class="btn btn-error mt-4 text-white">Register Now</button>
+                    </div>
+
+
+                </div>
+
+        </section>
+
+
+
+
+
 
     </main>
+
+
     <footer>
 
     </footer>
